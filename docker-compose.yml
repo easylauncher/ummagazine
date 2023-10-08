@@ -3,8 +3,12 @@ version: '3.3'
 services:
   jekyll:
     image: jekyll/jekyll:3.8
-    command: jekyll serve --force_polling
+    # command: jekyll serve --force_polling
+    command: /srv/jekyll/deploy/entrypoint.sh
+    
     ports:
       - 4000:4000
     volumes:
       - .:/srv/jekyll
+
+

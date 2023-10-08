@@ -4,8 +4,8 @@ title: "UM Magazine"
 description: "UM Magazine"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /
-google_analytics: 'UA-46278016-1'
+baseurl: 
+google_analytics: 'G-ZJ7SXF9G0L'
 disqus: 'demowebsite'
 mailchimp-list: 'https://example.us11.list-manage.com/subscribe/post?u=example'
 include: ["_pages"]
